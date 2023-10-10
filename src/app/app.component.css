@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.content-big {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.small-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65vw;
+    margin: auto;
+}
+
+.content-small {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+}
+
+.content-small > h2 {
+    margin-left: 17.5vw;
+    padding-left: 1rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    color: #303030;
+}

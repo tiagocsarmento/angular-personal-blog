@@ -1,6 +1,50 @@
-<app-menu-bar></app-menu-bar>
-<app-logo></app-logo>
+<div class="conteiner-header">
+    <app-logo></app-logo>
+    <app-menu-bar></app-menu-bar>
+</div>
 <app-title></app-title>
-<app-small-card></app-small-card>
-<app-big-card></app-big-card>
+
+<div class="content-big">
+    <app-big-card 
+        backgroundImage="assets/images/cabin.png" 
+        category="Artwork" 
+        title="Cabin - a shelter in the desert">
+    </app-big-card>
+    <app-big-card 
+        backgroundImage="assets/images/boba-and-some-rocks.png" 
+        category="Artwork" 
+        title="Boba and some rocks">
+    </app-big-card>
+</div>
+
+<div class="content-small">
+    <h2>See more</h2>
+    <div class="small-cards">
+        <app-small-card 
+            backgroundImage="/assets/images/boba-in-the-sea.png"
+            category="Artwork"
+            title="News in the Horizon"
+            description="After a long time wandering, our little friend Boba found something they didn't expect to bring so much anticipation and fear: an island.">
+        </app-small-card>
+        <app-small-card 
+            backgroundImage="/assets/images/twisted-house.png"
+            category="Artwork"
+            title="Twisted"
+            description="A piece of architecture designed by the heat of a desert">
+        </app-small-card>
+        <app-small-card 
+            backgroundImage="/assets/images/digital-atelier.png"
+            category="Experience"
+            title="My Atelier"
+            description="Enter my virtual atelier in this immersive experience!">
+        </app-small-card>
+
+    </div>
+    
+
+</div>
+
+
+
+
 <router-outlet></router-outlet>
