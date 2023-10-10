@@ -1,0 +1,30 @@
+.conteiner-small-card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0;
+    padding: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.conteiner-small-card > img {
+    height: 100%;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.conteiner-small-card > h3 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.conteiner-small-card > span {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #505050;
+}
+
+.conteiner-small-card > p {
+    font-size: 1.125rem;
+}
